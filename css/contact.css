@@ -1,0 +1,128 @@
+body{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 110%;
+    background-image: linear-gradient(340deg, #c200ae, #c200ae, #135fab,black, black ,black);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+html{
+    margin: 0;
+    height: 100%;
+}
+@keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: rotateX(-10deg);
+    }
+    to {
+      opacity: 1;
+      transform: rotateX(0);
+    }
+  }
+    
+main{
+    margin-left: 310px;
+    margin-top: 140px;
+    color: white;
+    font-size: 170%;
+    animation: fadeIn 1s;
+}
+
+p{
+    width: fit-content;
+    font-size: 200%;
+}
+#instagram{
+    background: linear-gradient(-340deg, yellow, orange, red, #c200ae, #135fab); -webkit-background-clip: text;
+    color: transparent;
+}
+#instagram{
+    font-size: 120%;
+    background: linear-gradient(-340deg, yellow, red, #c200ae, #135fab); -webkit-background-clip: text;
+    color: transparent;
+}
+
+.left
+{
+    position: relative;
+}
+.left:before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #FFF;
+  visibility: hidden;
+  transition: all 0.5s ease-in-out;
+}
+.left:hover:before {
+    visibility: visible;
+    width: 100%;
+
+  }
+  .left{
+      text-decoration: none;
+      color: white;
+      font-size: 80%;
+  }
+  .left:hover{
+      text-decoration: none;
+      color: white;
+  }
+#twitter{
+    color: #00b3ff;
+}
+#github{
+    color: #7a7a7a;
+}
+#linkedin{
+    color: #134c9c;
+}
+#mailp{
+    font-size: 140%;
+}
+#mail{
+    font-size: 130%;
+    color: #c21e00;
+}
+#maila{
+    font-size: 100%;
+}
+#responsive{
+    font-size: 70%;
+    padding-right: 10px;
+}
+#responsive{
+    font-size: 80%;
+    margin-top: 40px;
+    border-left: 3px solid #c200ae; 
+    height: fit-content;
+    padding-top: 8px;
+    padding-left: 15px;
+    padding-bottom: 8px;
+}
+#iglink{
+    font-weight: 900;
+    font-size: 95%;
+}
+@media screen and (max-width: 1000px){
+    main{
+        margin-left: 50px !important;
+        margin-top: 110px;
+    }
+}
+@media screen and (max-width: 700px){
+    main{
+        margin-left: 30px !important;
+        margin-top: 110px;
+    }
+    
+}
+@media screen and (max-width: 550px){
+#mailp{
+        font-size: 110%;
+    }
+}

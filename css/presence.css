@@ -1,0 +1,118 @@
+body{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 100%;
+    background-image: linear-gradient(340deg, #c200ae, #c200ae, #135fab,black, black ,black) !important;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+html{
+    margin: 0;
+    height: 100%;
+}
+@keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: rotateX(-10deg);
+    }
+    to {
+      opacity: 1;
+      transform: rotateX(0);
+    }
+  }
+main{
+    margin-left: 300px;
+    margin-top: 140px;
+    color: white;
+    font-size: 170%;
+    animation: fadeIn 1s;
+}
+/*div{
+    display: inline-block;
+    font-size: 100%;
+    color: white;
+}*/
+#responsive{
+    font-size: 70%;
+}
+p{
+    width: fit-content;
+    font-size: 200%;
+    width: 600px;
+}
+
+.left
+{
+    position: relative;
+}
+.left:before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #FFF;
+  visibility: hidden;
+  transition: all 0.5s ease-in-out;
+}
+.left:hover:before {
+    visibility: visible;
+    width: 100%;
+
+  }
+  .left{
+      text-decoration: none;
+      color: white;
+      font-size: 80%;
+  }
+  .left:hover{
+      text-decoration: none;
+      color: white;
+  }
+#responsive{
+    font-size: 70%;
+    margin-top: 30px;
+    border-left: 3px solid #c200ae; 
+    height: fit-content;
+    padding-left: 15px;
+    padding-bottom: 6px;
+    padding-top: 6px;
+    font-family: monospace;
+}
+#iglink{
+    font-weight: 900;
+    font-size: 105%;
+}
+#prenaslov{
+    font-size: 160%;
+    padding-left: 5px;
+    font-family: monospace;
+}
+@media screen and (max-width: 1000px){
+    main{
+        margin-left: 30px !important;
+    }
+}
+@media screen and (max-width: 650px){
+    p{
+        width: 550px;
+    }
+}
+@media screen and (max-width: 580px){
+    p{
+        width: 500px;
+    }
+}
+@media screen and (max-width: 530px){
+    p{
+        width: 440px;
+        margin-left: 0px !important;
+    }
+}
+@media screen and (max-width: 470px){
+    p{
+        width: 310px;
+        margin-left: 0px !important;
+    }
+}
