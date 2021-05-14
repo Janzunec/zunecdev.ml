@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="css/nav.css" />
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+    <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">-->
+
+    <script src="../presence.js"></script>
+    <script src="presencenav.js"></script>
+</head>
+<body>
+    
+<nav>
+    <div class="logo">
+        <h1><img src="slike/logo1.png" width="60px" height="53px" alt="logo">&nbsp;Jan&nbsp;Zunec</div></h1>
+    </div>
+    <ul class="nav-links">
+       
+        <li class="sites">
+            <a href="index.php"><span><i class="far fa-user-circle"></i></span>&nbsp;About Me</a>
+        </li>
+        <li class="sites">
+            <a href="tools.php"><span><i class="fas fa-wrench"></i></span>&nbsp;Tools</a>
+        </li>
+        <li class="sites">
+            <a href="projects.php"><span><i class="fas fa-code"></i></span>&nbsp;My Projects</a>
+        </li>
+        <li class="sites">
+            <a href="contact.php"><span><i class="fas fa-phone-alt"></i></span>&nbsp;Contact</a>
+        </li>
+        <li class="contacts">
+            <a class="social" href="https://www.instagram.com/janzunec/">
+                <i class="fab fa-instagram"></i>
+              </a>
+              <a class="social" href="https://twitter.com/janzunec">
+                <i class="fab fa-twitter"></i>
+              </a>
+              <a class="social" href="https://github.com/Janzunec">
+                <i class="fab fa-github"></i>
+              </a>
+              <a class="social" href="https://www.linkedin.com/in/jan-zunec-bb9454211/">
+                <i class="fab fa-linkedin-in"></i>
+              </a>
+        </li>
+        <li id="presencenav">
+            <a id="social2" href="presence.php">
+                <table id="pretable1">
+                  <tr>
+                    <th id="th" colspan="2"><span id="activityname"></span></th>
+                  </tr>
+                  <tr id="activitypicturetr">
+                    <td id="td" rowspan="2"><img id="activitypicture" src="" alt="" height="80px"></td>
+                  </tr>
+                  <tr id="tr">
+                    <td id="odmik"> 
+                      <span id="activitydetails"></span><span id="activityby"></span><span id="activitystate"></span></td>
+                  </tr>
+                </table>
+              </a>
+        </li>
+    </ul>
+    <div class="burger">
+        <div class="line1"></div>
+        <div class="line2"></div>
+        <div class="line3"></div>
+    </div>
+    <footer id="contact">
+        <address class="media">
+          <a class="social" href="https://www.instagram.com/janzunec/" target="_blank">
+            <i class="fab fa-instagram"></i>
+          </a>
+        </address>
+        <address class="media">
+          <a class="social" href="https://twitter.com/janzunec" target="_blank">
+            <i class="fab fa-twitter"></i>
+          </a>
+          </address>
+        <address class="media">
+          <a class="social" href="https://github.com/Janzunec" target="_blank">
+            <i class="fab fa-github"></i>
+          </a>
+          </address>
+        <address class="media">
+          <a class="social" href="https://www.linkedin.com/in/jan-zunec-bb9454211/" target="_blank">
+            <i class="fab fa-linkedin-in"></i>
+          </a>
+        </address>
+        <address id="presence">
+          <a id="social1" href="presence.php">
+            <table id="pretable">
+              <tr>
+                <th id="th" colspan="2"><span id="spotify"></span></th>
+              </tr>
+              <tr id="albumtr">
+                <td id="td" rowspan="2"><img id="album" src="" alt="" height="80px"></td>
+              </tr>
+              <tr id="tr">
+                <td id="odmik"> 
+                  <span id="song"></span><span id="by"></span><span id="artist"></span></td>
+              </tr>
+            </table>
+          </a>
+        </address>
+    </footer>
+    <footer id="name">
+        <address id="footer1"><!--&#169; Jan Zunec--></address>
+    </footer>
+</nav>
+<script src="nav.js"></script>
+</body>
+</html>
