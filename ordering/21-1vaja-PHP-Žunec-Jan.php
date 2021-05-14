@@ -67,7 +67,7 @@ session_start();
     $_SESSION['email'] = $_POST["email"];
     ?>
     <h1>2.korak: Naslov za dostavo</h1>
-    <?php include("Nav.inc.php") ?>
+    <?php include("Nav.php") ?>
     <h4>Vpiši naslov za dostavo:</h4>
     <table>
         <form method="post" action="21-2vaja-PHP-Žunec-Jan.php">

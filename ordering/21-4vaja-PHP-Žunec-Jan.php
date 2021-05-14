@@ -116,7 +116,7 @@ session_start();
     }
 ?>
     <h1>5.korak: Povzetek naročila</h1>
-    <?php include("Nav.inc.php") ?>
+    <?php include("Nav.php") ?>
     <table>
     <tr><th colspan="2">1.korak: Prijava</th></tr>
     

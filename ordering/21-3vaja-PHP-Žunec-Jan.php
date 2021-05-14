@@ -67,7 +67,7 @@ session_start();
     $_SESSION['placilo'] = $_POST["placilo"];
     ?>
     <h1>4.korak: Način dostave</h1>
-    <?php include("Nav.inc.php") ?>
+    <?php include("Nav.php") ?>
     <h4>Izberi način dostave:</h4>
     <table>
         <form method="post" action="21-4vaja-PHP-Žunec-Jan.php">

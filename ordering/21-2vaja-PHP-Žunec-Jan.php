@@ -70,7 +70,7 @@ session_start();
     $_SESSION['posta'] = $_POST["posta"];
     ?>
     <h1>3.korak: Način plačila</h1>
-    <?php include("Nav.inc.php") ?>
+    <?php include("Nav.php") ?>
     <h4>Izber način plačila:</h4>
     <table>
         <form method="post" action="21-3vaja-PHP-Žunec-Jan.php">
